@@ -121,12 +121,12 @@
 
 // 8.**** join()
 
-let a = ["hello","how","are","you"];
+// let a = ["hello","how","are","you"];
 
-let b = "hello";
-console.log(b.split(""))
+// let b = "hello";
+// console.log(b.split(""))
 
-  console.log(a.join(" "));
+//   console.log(a.join(" "));
 
 // 9. splice()
 
@@ -164,4 +164,35 @@ console.log(b.split(""))
     //           str.sort()
     //           console.log(str)
 
+
+
+    
+
+    // console.log(a);
+
+    // let a = 10;
+
+
+// nested Array
+
+
+// let a = [[1,2],[4,5],[6,8]]
+
+// console.log(a[2][1]);
+
          
+
+
+// 1 se 10 tak print karao
+console.log(1)
+console.log(2)
+console.log(3)
+console.log(4)
+console.log(5)
+console.log(6)
+console.log(7)
+console.log(8)
+console.log(9)
+console.log(10)
+
+// yha se start hota h loop

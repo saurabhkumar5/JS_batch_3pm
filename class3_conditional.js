@@ -170,3 +170,9 @@
 // falsy value => false,0,-0,null,undefined
 
 
+
+// ternary operator
+
+       
+//  const a  =  4>13 ? "hello" : "bye";
+//    console.log(a)
