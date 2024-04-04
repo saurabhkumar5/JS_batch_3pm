@@ -220,3 +220,70 @@
   //  let b  = ()=>console.log("good")
 
   //     bulbul(b)
+
+
+
+  // {
+  //   let a = 10
+  //   var b = "hello"
+  // }
+  // console.log(b)
+
+
+  // function momo(x){  //outer function
+  //   var a = 10;
+    
+
+  //   function hola(){  //inner function
+  //     console.log(a,x)
+  //   //  let d = 30;
+  //   }
+
+  //   function vishu(){
+  //     console.log(a)
+  //     // console.log(d)
+
+
+  //   }
+  //   hola()
+  //   vishu()
+    
+  // }
+  
+  // momo("hello")
+
+
+  // function momo(){
+  //   let a = 10;
+  
+  //   function logo(){
+  //     console.log(a)
+  //   }
+  //    a = 30;
+  //    a= 50;
+  //   return logo;
+  //   a = 81.5;
+
+  // }
+  //  let app   = momo()
+  //      app()
+  
+
+  // function hoisting
+
+  // let a;
+
+
+  // let a = 10;
+  // console.log(a);
+
+ 
+
+  kuchbhi()
+  function kuchbhi(){
+    console.log("hello")
+  }
+
+
+ 
+  
