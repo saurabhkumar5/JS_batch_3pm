@@ -117,11 +117,14 @@ const btn = document.querySelectorAll('button')
 //          })
 //   }
 
-btn.forEach(function(value){
-        value.addEventListener('click',function(){
-                console.log(this)
-        })
-})
+
+
+
+// btn.forEach(function(value){
+//         value.addEventListener('click',function(){
+//                 console.log(this)
+//         })
+// })
 
 
 
