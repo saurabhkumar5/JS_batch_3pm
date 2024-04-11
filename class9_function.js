@@ -279,11 +279,26 @@
 
  
 
-  kuchbhi()
-  function kuchbhi(){
-    console.log("hello")
-  }
+  // kuchbhi()
+  // function kuchbhi(){
+  //   console.log("hello")
+  // }
 
+
+// recursive function
+let i = 1;
+
+function momo(value){
+ 
+   if(i>value){
+    return;
+   }
+   console.log("hello")
+   i++;
+   momo(value)
+}
+
+momo(6)
 
  
   

@@ -115,6 +115,6 @@
 
 
 
-setInterval(()=>{
-    console.log("aman")
-},2000)
+// setInterval(()=>{
+//     console.log("aman")
+// },2000)
