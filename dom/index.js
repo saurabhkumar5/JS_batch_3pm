@@ -103,7 +103,7 @@
 
 
 
-const btn = document.querySelectorAll('button')
+// const btn = document.querySelectorAll('button')
    
 //    for(let button of btn){
 //           button.addEventListener('click',function(){
@@ -127,9 +127,112 @@ const btn = document.querySelectorAll('button')
 // })
 
 
+//  const btn = document.querySelectorAll('button')
 
+// //   console.log(btn)
+
+//      btn.forEach(value=>{
+//         value.addEventListener("click",(ankite)=>{
+//                 // console.log(e.target)
+//                 ankite.target.style.backgroundColor = "red"
+//         })
+//      })
     
 
 
 
+//       const btn = document.querySelector("button");
+     
+//          const body = document.body
 
+//          function color(){
+
+//                const red =  Math.floor(Math.random()*256);
+//                const green =  Math.floor(Math.random()*256);
+//                const blue =  Math.floor(Math.random()*256);
+//         //        console.log(red,green,blue)
+
+//                const momo = `rgb(${red},${blue},${green})`
+//         //        console.log(momo)
+
+//                return momo
+               
+//          }
+  
+//            btn.addEventListener('click',()=>{
+//              const c  = color()
+//              body.style.backgroundColor = c
+//            })
+
+
+//     1.click
+//     2.keypress event
+//     3.mouseover event
+
+//        const body = document.body;
+//        body.addEventListener('keypress',(e)=>{
+//         console.log(e.key)
+//        })
+
+        // const btn = document.querySelector('.btn')
+
+        // btn.addEventListener('mouseover',(e)=>{
+        //         console.log(e)
+        // })
+
+//     4. mouseleave event
+
+       
+
+     const dadaji = document.querySelector(".dadaji")
+     const papaji = document.querySelector(".papaji")
+     const child = document.querySelector(".bachha")
+     const body = document.body
+
+//      child.addEventListener('click',()=>{
+//         console.log("hello child")
+//      },true)
+
+
+//      papaji.addEventListener('click',()=>{
+//         console.log("hello papaji")
+//      },true)
+
+
+//      dadaji.addEventListener('click',()=>{
+//         console.log("dadaji")
+//      },true)
+
+
+//      body.addEventListener('click',()=>{
+//         console.log("hello body")
+//      },true)
+
+
+
+// child.addEventListener('click',()=>{
+//         console.log("hello child")
+//      })
+
+
+//      papaji.addEventListener('click',()=>{
+//         console.log("hello papaji")
+//      })
+
+
+//      dadaji.addEventListener('click',()=>{
+//         console.log("dadaji")
+//      })
+
+
+//      body.addEventListener('click',()=>{
+//         console.log("hello body")
+//      })
+
+
+
+// event delegation
+
+    dadaji.addEventListener("click",(e)=>{
+        console.log(e.target)
+    });
