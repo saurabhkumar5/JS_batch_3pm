@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .container{
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            
+        }
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>website logo <i class="fa-solid fa-magnifying-glass"></i></h1>
+        <nav>
+            <a href="#" id="home">Home</a>
+            <a href="#" id="about">About</a>
+            <a href="#" id="services">Services</a>
+            <a href="#" id="contact">Contact</a>
+        </nav>
+    </header>
+
+
+
+    <div class="container">
+           <section id="home-section">
+            <h2>Home</h2>
+            <p>welcome to home page</p>
+           </section>
+
+           <section id="about-section" class="hidden">
+            <h2>About</h2>
+            <p>welcome to About page</p>
+           </section>
+
+           <section id="service-section" class="hidden">
+            <h2>service</h2>
+            <p>welcome to service page</p>
+           </section>
+
+           <section id="contact-section" class="hidden">
+            <h2>contact</h2>
+            <p>welcome to contact page</p>
+           </section>
+    </div>
+
+
+    <script>
+
+      const homeLink = document.getElementById('home');
+      const aboutLink = document.getElementById('about');
+      const serviceLink = document.getElementById('services');
+      const contactLink = document.getElementById('contact');
+
+
+      const homeContent = document.getElementById('home-section');
+      const aboutContent = document.getElementById('about-section');
+      const contactContent = document.getElementById('contact-section');
+      const serviceContent = document.getElementById('service-section');
+
+
+
+
+
+      function showContent(content){
+            homeContent.classList.add('hidden')
+            aboutContent.classList.add('hidden')
+            serviceContent.classList.add('hidden')
+            contactContent.classList.add('hidden')
+
+
+           content.classList.remove('hidden')
+
+
+      }
+      
+      aboutLink.addEventListener('click',()=>{
+             
+              showContent(aboutContent)
+      })
+      homeLink.addEventListener('click',()=>{
+             
+             showContent(homeContent)
+     })
+
+     serviceLink.addEventListener('click',()=>{
+             
+             showContent(serviceContent)
+     })
+     contactLink.addEventListener('click',()=>{
+             
+             showContent(contactContent)
+     })
+
+    </script>
+    
+</body>
+</html>
