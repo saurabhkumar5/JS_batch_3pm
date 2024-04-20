@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 class="momo1">helloo</h1>
+    <h1 class="momo2">helloo</h1>
+    <h1 class="momo3">helloo</h1>
+    <h1 class="momo4">helloo</h1>
+    <h1 class="momo5">helloo</h1>
+    
+    
+    <script>
+                // console.log("welcome")
+
+                // const chai = ["patila","paani","chaipatti","chini","milk","chips"]
+      
+                //  const chai1  =  new Promise((resolve,reject)=>{
+                       
+                //      if(chai.includes("patila") && chai.includes("paani") && chai.includes("chaipatti") && chai.includes("milk")){
+
+                //         resolve("aapki chai banakar ready h")
+                //      }else{
+                //         reject("sorry")
+                //      }
+
+                //      })
+
+
+                //     //  promise consume
+                //     //  chai1
+                //     //  .then((value)=>{
+                //     //         console.log(value)
+                //     //  })
+                //     //  .catch((err)=>{
+                //     //     console.log(err)
+                //     //  })
+
+                //     chai1
+                //      .then(value=>console.log(value))
+                //      .catch(err=>console.log(err))
+
+                //      for(let i = 0;i<=100;i++){
+                //         console.log("hello")
+                //      }
+
+                //      console.log("end")
+
+
+
+
+
+            //   function momo(){
+            //     const chai = ["patila","paani","chaipatti","chini","milk","chips"];
+
+            //     return new Promise((resolve,reject)=>{
+                       
+            //            if(chai.includes("patila") && chai.includes("paani") && chai.includes("chaipatti") && chai.includes("milk")){
+  
+            //               resolve("aapki chai banakar ready h")
+            //            }else{
+            //               reject("sorry")
+            //            }
+  
+            //            })
+
+            //   }
+            //    momo()
+            //    .then(value=>console.log(value))
+            //    .catch(err=>console.log(err))
+              
+      
+
+
+
+            // function momo(){
+        
+            //     return new Promise((resolve,reject)=>{
+                       
+            //            setTimeout(()=>{
+
+            //             if(true){
+
+            //                 resolve(1)
+            //             }else{
+            //                 reject()
+            //             }
+            //            },2000)
+  
+            //            })
+
+            //   }
+            //    momo()
+            //    .then(value=>{
+            //     console.log(value)
+            //       return value+=1; 
+            //    })
+            //    .then((a)=>{
+            //     console.log(a)
+            //     return a+=1
+            //    })
+            //    .then((b)=>{
+            //     console.log(b)
+            //    })
+            //    .catch(err=>console.log("reject"))
+                
+
+
+        //   const momo1 = document.querySelector('.momo1');
+        //   const momo2 = document.querySelector('.momo2');
+        //   const momo3 = document.querySelector('.momo3');
+        //   const momo4 = document.querySelector('.momo4');
+        //   const momo5 = document.querySelector('.momo5');
+            
+                  
+        //  function logo(element,color,time){
+
+        //     return new Promise((resolve,reject)=>{
+
+        //         setTimeout(()=>{
+        //             if(element){
+        //                element.style.backgroundColor = color
+        //                resolve();
+        //             }else{
+        //                 reject();
+        //             }
+        //         },time)
+        //     })
+        //  }
+           
+            //   logo(momo1,"red",1000)
+            //   .then(()=>{
+            //     return logo(momo2,"green",1000)
+            //   })
+            //   .then(()=>{
+            //     return logo(momo3,"yellow",1000)
+            //   })
+            //   .then(()=>{
+            //     return logo(momo4,"blue",1000)
+            //   })
+            //   .then(()=>{
+            //     return logo(momo5,"orange",1000)
+            //   })
+      
+
+            //   logo(momo1,"red",1000)
+            //   .then(()=>logo(momo2,"green",1000))
+            //   .then(()=>logo(momo3,"yellow",3000))
+            //   .then(()=>logo(momo4,"blue",1000))
+            //   .then(()=>logo(momo5,"orange",1000))
+
+
+            // Ajax => asynchronous javascript and xml
+
+
+            // 1.xmlHTTPRequest 
+            // 2.fetch api
+            // 3.axios
+
+                //   const data   = "https://jsonplaceholder.typicode.com/users"
+                // //   console.log(data)
+                // const value  = fetch(data);
+                // console.log(value);
+                // value
+                // .then((a)=>{
+                //     //    console.log(a)
+                //     return a.json()
+                // })
+                // .then((b)=>{
+                //      console.log(b)
+                // })
+
+
+
+                // async await
+
+                const data   = "https://jsonplaceholder.typicode.com/users";
+
+                //     fetch(data)
+                //     .then(value=> value.json())
+                //     .then(a=>console.log(a))
+
+
+                   async function Data(){
+                          
+                       const value  = await fetch(data)
+                         const a =  await value.json();
+                         console.log(a)
+                         
+                    }
+                    Data();
+
+    </script>
+
+
+</body>
+</html>

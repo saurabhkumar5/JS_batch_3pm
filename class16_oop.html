@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        
+
+    //    const obj = {
+
+    //             naam:"aakash",
+    //             age:8,
+    //             burger: ()=>{
+                
+    //                 console.log(`hello i am burger ${obj.naam} and my age is ${obj.age}`)
+                   
+            
+    //             }
+    //    }
+
+    //    console.log(obj.burger())
+
+    // function Info(){
+    //         console.log(`my name is ${this.naam} and age is ${this.age}`)
+    //     }
+
+    // const obj = {
+    //     naam:"rahul",
+    //     age:8,
+    //     momo: Info
+    // }
+
+    // const obj1 = {
+    //     naam:"gita",
+    //     age:20,
+    //     momo: Info
+    // }
+    // const obj2 = {
+    //     naam:"sita",
+    //     age:25,
+    //     momo: Info
+    // }
+
+    // obj1.momo()    console.log()
+    // obj.momo()
+    // obj2.momo()
+
+
+
+    // console.log(this)
+    // console.log(window)
+
+
+
+    // function hola(){
+
+    //     console.log("hello world")
+
+    // }
+
+    // hola.call()
+
+
+
+    // const user1 = {
+    //        naam:"samriti",
+    //        title:"kashyap",
+    //        momo: function(a,b){
+    //         console.log(this.naam,this.title,a,b)
+    //        }
+    // }
+
+    // const user2 = {
+    //        naam:"sonam",
+    //        title:"kumari",
+    //        momo: function(a,b){
+    //         console.log(this.naam,this.title,a,b)
+    //        }
+    // }
+    
+
+    // user2.momo.call(user2,"singing","dancing");
+
+    // apply()
+    // user2.momo.apply(user2,["singing","dancing"]);
+
+    // bind()
+
+        // const value  = user2.momo.bind(user2,"singing","dancing");
+        
+        // value()
+
+   
+
+        //    function createObject(a,b,c){
+               
+        //        const data = {}
+        //          data.name = a
+        //          data.title = b
+        //          data.age = c
+        //          data.momo = function(){
+                     
+        //             return `${this.name,this.title,this.age}`
+        //          }
+        //          console.log(data)
+                 
+
+        //    }
+        // const a  = createObject("sohan","kumar",8)
+
+        //        const b  =  a.name
+        //        console.log(b)
+          
+
+
+        const obj1 = {
+            naam1: "suhani",
+            age1: 10
+        }
+
+        const obj2 = {
+            naam2: "rohan",
+            age2: 20
+        }
+
+              console.log(obj2.naam1)
+
+                const value   = Object.create(obj2)
+                // console.log(value)
+                value.naam1 = "suhani"
+                   console.log(value)
+           
+          
+
+       
+
+
+
+    </script>
+
+</body>
+</html>

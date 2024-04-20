@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      
+    <div class="hola1">hola1</div>
+    <div class="hola2">hola2</div>
+    <div class="hola3">hola3</div>
+    <div class="hola4">hola4</div>
+
+    <script>
+
+        // Synchrous programming
+    //     console.log("welcome");
+
+    //    for(let i = 0; i<5000; i++){
+    //     console.log("momo")
+    //      }
+
+    //     console.log("shimla");
+
+         
+        //   console.log("fufaji");
+
+        //   setTimeout(()=>{
+        //     console.log("mamaji")
+        //   },2000)
+         
+        //   console.log("chachaji")
+
+        //  console.log("momo")
+
+        // setInterval(()=>{
+        //     console.log("hello")
+        // },2000)
+
+        // console.log("hola")
+
+        // const body  = document.body;
+
+        // setInterval(()=>{
+        //     const red = Math.floor(Math.random()*126);
+        //     const green = Math.floor(Math.random()*126);
+        //     const blue = Math.floor(Math.random()*126);
+        //     const rgb = `rgb(${red},${green},${blue})`
+
+        //     body.style.backgroundColor = rgb
+        // },1000)
+
+
+        // function momo(a){
+        //     a()
+        //     console.log("hello")
+        // }
+        // function logo(){
+        //     console.log("logo")
+        // }
+         
+        // // logo()
+        // momo(logo)
+
+
+        // const hola1 = document.querySelector(".hola1")
+        // const hola2 = document.querySelector(".hola2")
+        // setTimeout(()=>{
+        //     hola1.style.backgroundColor = "red"
+        // },4000)
+        // setTimeout(()=>{
+        //     hola2.style.backgroundColor = "yellow"
+        // },5000)
+
+
+
+        const hola1 = document.querySelector(".hola1")
+        const hola2 = document.querySelector(".hola2")
+        const hola3 = document.querySelector(".hola3")
+        const hola4 = document.querySelector(".hola4")
+        
+        setTimeout(()=>{
+            hola1.style.backgroundColor = "red"
+
+             setTimeout(()=>{
+                hola2.style.backgroundColor = "yellow"
+                 
+                 setTimeout(()=>{
+                    hola3.style.backgroundColor = "green"
+                     setTimeout(()=>{
+                        hola4.style.backgroundColor = "blue"
+                     },1000)
+                 },1000)
+
+             },1000)
+        },1000)
+        
+
+    </script>
+</body>
+</html>
+
